@@ -1,0 +1,375 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@100..900&display=swap");
+@import url("https://v1.fontapi.ir/css/Sahel");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: Sahel, sans-serif;
+}
+
+.top-backruond-color {
+  background-color: #f2f2ec;
+}
+
+.top-bar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(35, 35, 35, 0.48);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  margin-top: 30px;
+  background-color: rgba(255, 253, 253, 0);
+}
+.navbar-img {
+  height: 120px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.book-online {
+  height: 50px;
+  width: 100px;
+  color: white;
+  background-color: #bba07a;
+}
+
+.book-online:hover {
+  background-color: #bba07a;
+  color: white;
+}
+
+.intro {
+  position: absolute;
+  font-size: 90px;
+}
+.intro-txt {
+  position: absolute;
+  padding-top: 320px;
+}
+
+.intro-btn {
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  height: 50px;
+  width: 110px;
+  bottom: 0;
+}
+
+.intro-btn:hover {
+  background-color: #bba07a;
+  color: white;
+  transform: scale(1.05);
+}
+
+.intro-btn {
+  transition: all 0.7s;
+}
+
+.about-img {
+  height: 590px;
+  border-radius: 15px;
+}
+
+.about-txt {
+  margin-top: 60px;
+}
+
+.learn-more {
+  background-color: #bba07a;
+  color: white;
+  margin-top: 30px;
+  height: 50px;
+  width: 150px;
+  transition: all 0.9s;
+}
+
+.learn-more:hover {
+  background-color: #bba07a;
+  color: white;
+  box-shadow: 0px 10px 20px 0px rgb(192, 179, 179);
+  transform: scale(1);
+}
+
+.service {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.navbar-dk {
+  position: fixed;
+  transition: all 0.5s ease-in;
+  width: 100%;
+}
+
+.dark {
+  margin-top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.comment {
+  border: 2px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  height:350px;
+  width: 300px;
+  
+}
+
+.comment p {
+  margin-top: 40px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.comment a {
+  background-color: #bba07a;
+  color: white;
+  width: 100px;
+  height: 40px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.comment a:hover {
+  color: white;
+  background-color: black;
+}
+
+.comment span {
+  color: #e4c139;
+  font-size: larger;
+  padding: 15px;
+}
+
+.comment h6 {
+  margin-right: 15px;
+}
+
+.booking-online {
+  height: 70vh;
+  background: url(../img/massage2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.booking-online a {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  margin-top: 25px;
+  height: 50px;
+  width: 120px;
+  transition: all 0.5s;
+  padding-top: 10px;
+}
+.booking-online a:hover {
+  background-color: #bba07a;
+  color: white;
+  transform: scale(1);
+}
+
+.input-b input {
+  border-bottom: 1px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: #f8f9fa;
+  width: 250px;
+  margin: 25px;
+  margin-bottom: 30px;
+}
+
+.input-bu input {
+  border-bottom: 1px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: #f8f9fa;
+  width: 89%;
+  margin-top: 60px;
+}
+
+.contact {
+  border-radius: 15px;
+  margin-right: 40px;
+  height: 550px;
+}
+
+.contact-container {
+  border-radius: 20px;
+}
+
+.contact-section {
+  background-color: #f2f2ec;
+}
+
+.send-massage {
+  background-color: black;
+  color: white;
+  margin-top: 60px;
+  font-weight: bold;
+  height: 55px;
+  width: 562px;
+  padding-top: 14px;
+  transition: all 0.9s;
+}
+
+.send-massage:hover {
+  background-color: #bba07a;
+  color: white;
+  transform: scale(1);
+}
+
+.map-txt {
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 80px;
+}
+
+.lorem {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.map-txt h1 {
+  padding-top: 30px;
+}
+
+.map-txt a {
+  color: brown;
+}
+
+.bg {
+  background: #bba07a;
+}
+
+.face-book {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-width: 51px;
+  border: 1px solid rgba(255, 255, 255, 0.512);
+  border-radius: 50%;
+  padding: 0;
+  line-height: 49px;
+  margin-right: 15px;
+}
+
+.face-book:hover {
+  background-color: white;
+  color: red;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .navbar{
+    margin: 0;
+  }
+  .navbar-img{
+    margin: 0;
+    right: 10px;
+    height: 100px;
+  }
+.intro{
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.intro-txt{
+  font-size: 15px;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 146px;
+}
+.intro-btn{
+  top: 300px;
+}
+
+.about-txt{
+  padding: 20px;
+}
+.about-img{
+  margin-top: 20px;
+}
+.service{
+  width: 450px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+
+}
+.booking-online{
+  height: 42vh;
+  background: url(../img/massage2.jpg) 50% 50% no-repeat;
+  background-size: cover;
+}
+.input-b input{
+  width: 140px;
+}
+.send-massage{
+  width: 328px
+}
+.contact{
+  margin-right: 11px;
+}
+.map-txt {
+  position: absolute;
+  width: 310px;
+  height: 539px;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 49px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
