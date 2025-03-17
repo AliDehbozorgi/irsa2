@@ -333,6 +333,7 @@
   width: 140px;
 }
 .send-massage{
+  margin-bottom:20px;
   width: 328px
 }
 .contact{
@@ -345,8 +346,15 @@
   border-radius: 8px;
   background-color: white;
   margin-right: 49px;
-}
 
+}
+.about-img{
+  height: 461px;
+}
+/* .fa-bars{
+  padding-left: 100px;
+} */
+}
 
 
 
