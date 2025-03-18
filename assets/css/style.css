@@ -239,10 +239,11 @@
 .map-txt {
   position: absolute;
   width: 500px;
-  height: 550px;
+  height: 555px;
   border-radius: 8px;
   background-color: white;
   margin-right: 80px;
+  margin-top: 119px;
 }
 
 .lorem {
@@ -327,7 +328,7 @@
     object-position: top;
   }
   .booking-online {
-    height: 42vh;
+    height: 72vh;
     background: url(../img/massage2.jpg) 50% 50% no-repeat;
     background-size: cover;
   }
@@ -340,7 +341,14 @@
   }
   .contact {
     margin-right: 0px;
+      height: 349px;
   }
+  }
+
+
+
+
+
   .map-txt {
     position: absolute;
     width: 310px;
@@ -359,10 +367,17 @@ height: 272px;
   {
     margin-right:  43px;
   }
+
+
+
+@media only screen and (max-width: 500px) {
+.booking-online{
+  height: 42vh;
 }
-
-
-
+.contact{
+  height: 500px;
+}
+}
 
 
 .owl-dots{
