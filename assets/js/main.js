@@ -19,7 +19,7 @@ function nextimage() {
 }
 
 //responsive
-if (this.window.innerWidth > 700) {
+if (this.window.innerWidth < 500) {
   let Data = [
     { id: 1, src: "assets/img/small-1.jpg" },
     { id: 2, src: "assets/img/small-2.jpg" },
@@ -40,19 +40,17 @@ if (this.window.innerWidth > 700) {
     console.log("ax");
   }
 }
-
-//responsive back
-else {
+if (this.window.innerWidth > 1000) {
   let Data = [
     { id: 1, src: "assets/img/banner-1.jpg" },
     { id: 2, src: "assets/img/banner-2.jpg" },
     { id: 3, src: "assets/img/banner-3.jpg" },
     { id: 4, src: "assets/img/banner-4.jpg" },
   ];
-  
+
   let ax = document.querySelector(".slider");
   setInterval(nextimage, 5000);
-  
+
   let index = 0;
   function nextimage() {
     index++;
@@ -61,14 +59,7 @@ else {
     }
     ax.setAttribute("src", Data[index].src);
   }
-  
 }
-
-
-
-
-
-
 
 let navbardark = document.querySelector(".navbar-dk");
 window.addEventListener("scroll", function () {
