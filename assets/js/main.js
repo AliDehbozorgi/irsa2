@@ -82,11 +82,23 @@ $(".owl-carousel").owlCarousel({
     0: {
       items: 1,
     },
+    500:{
+      items:2,
+    },
     600: {
-      items: 3,
+      items: 2,
+    },
+    700:{
+      items:2,
+    },
+    800:{
+      items:2,
+    },
+    900:{
+      items:3,
     },
     1000: {
-      items: 5,
+      items: 4,
     },
   },
 });
