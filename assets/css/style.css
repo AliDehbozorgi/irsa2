@@ -339,7 +339,7 @@
     width: 328px;
   }
   .contact {
-    margin-right: 11px;
+    margin-right: 0px;
   }
   .map-txt {
     position: absolute;
@@ -352,4 +352,31 @@
   .about-img {
     height: 461px;
   }
+  .service {
+height: 272px;
+  }
+  .comment
+  {
+    margin-right:  43px;
+  }
 }
+
+
+
+
+
+.owl-dots{
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+

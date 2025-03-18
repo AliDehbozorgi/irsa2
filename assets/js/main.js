@@ -40,7 +40,7 @@ if (this.window.innerWidth < 500) {
     console.log("ax");
   }
 }
-if (this.window.innerWidth > 1000) {
+else {
   let Data = [
     { id: 1, src: "assets/img/banner-1.jpg" },
     { id: 2, src: "assets/img/banner-2.jpg" },
@@ -72,9 +72,8 @@ window.addEventListener("scroll", function () {
 $(".owl-carousel").owlCarousel({
   rtl: true,
   loop: false,
-  margin: 10,
-  nav: true,
-  // center:true,
+  margin: 7,
+  nav: false,
   autoplay: true,
   autoplayTimeout: 5000,
   autoplayHoverPause: false,
@@ -82,23 +81,42 @@ $(".owl-carousel").owlCarousel({
     0: {
       items: 1,
     },
-    500:{
-      items:2,
+    500: {
+      items: 2,
     },
     600: {
       items: 2,
     },
-    700:{
-      items:2,
+    700: {
+      items: 2,
     },
-    800:{
-      items:2,
+    800: {
+      items: 2,
     },
-    900:{
-      items:3,
+    900: {
+      items: 2,
     },
     1000: {
       items: 4,
     },
   },
 });
+
+// $('.custom1').owlCarousel({
+//   animateOut: 'slideOutDown',
+//   animateIn: 'flipInX',
+//   items:1,
+//   margin:30,
+//   stagePadding:30,
+//   smartSpeed:450,
+//   autoplay:true,
+//   autoplayTimeout:1000,
+// });
+
+
+
+
+
+
+
+
