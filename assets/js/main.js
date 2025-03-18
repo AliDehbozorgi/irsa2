@@ -21,10 +21,10 @@ function nextimage() {
 //responsive
 if (this.window.innerWidth > 700) {
   let Data = [
-    { id: 1, src: "/assets/img/small-1.jpg" },
-    { id: 2, src: "/assets/img/small-2.jpg" },
-    { id: 3, src: "/assets/img/small-3.jpg" },
-    { id: 4, src: "/assets/img/small-4.jpg" },
+    { id: 1, src: "assets/img/small-1.jpg" },
+    { id: 2, src: "assets/img/small-2.jpg" },
+    { id: 3, src: "assets/img/small-3.jpg" },
+    { id: 4, src: "assets/img/small-4.jpg" },
   ];
 
   let ax = document.querySelector(".slider");
