@@ -129,9 +129,8 @@
   border: 2px solid;
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: 7px;
-  height:350px;
+  height: 350px;
   width: 300px;
-  
 }
 
 .comment p {
@@ -285,99 +284,67 @@
   color: red;
 }
 
-
-
 @media only screen and (max-width: 1000px) {
-  .navbar{
-    margin: 0;
-  }
-  .navbar-img{
+  .book-online {
+    visibility: hidden;
+    pointer-events: none;
+    }
+  .navbar-img {
     margin: 0;
     right: 10px;
-    height: 100px;
+    height: 80px;
   }
-.intro{
-  font-size: 35px;
-  margin-bottom: 0px;
+  .intro {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .intro-txt {
+    font-size: 15px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 146px;
+  }
+  .intro-btn {
+    top: 350px;
+  }
+
+  .about-txt {
+    padding: 20px;
+  }
+  .about-img {
+    margin-top: 20px;
+  }
+  .service {
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+  }
+  .booking-online {
+    height: 42vh;
+    background: url(../img/massage2.jpg) 50% 50% no-repeat;
+    background-size: cover;
+  }
+  .input-b input {
+    width: 140px;
+  }
+  .send-massage {
+    margin-bottom: 20px;
+    width: 328px;
+  }
+  .contact {
+    margin-right: 11px;
+  }
+  .map-txt {
+    position: absolute;
+    width: 310px;
+    height: 539px;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: 49px;
+  }
+  .about-img {
+    height: 461px;
+  }
 }
-.intro-txt{
-  font-size: 15px;
-  padding-top: 50px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-top: 146px;
-}
-.intro-btn{
-  top: 300px;
-}
-
-.about-txt{
-  padding: 20px;
-}
-.about-img{
-  margin-top: 20px;
-}
-.service{
-  width: 450px;
-  height: 400px;
-  object-fit: cover;
-  object-position: top;
-
-}
-.booking-online{
-  height: 42vh;
-  background: url(../img/massage2.jpg) 50% 50% no-repeat;
-  background-size: cover;
-}
-.input-b input{
-  width: 140px;
-}
-.send-massage{
-  margin-bottom:20px;
-  width: 328px
-}
-.contact{
-  margin-right: 11px;
-}
-.map-txt {
-  position: absolute;
-  width: 310px;
-  height: 539px;
-  border-radius: 8px;
-  background-color: white;
-  margin-right: 49px;
-
-}
-.about-img{
-  height: 461px;
-}
-/* .fa-bars{
-  padding-left: 100px;
-} */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
