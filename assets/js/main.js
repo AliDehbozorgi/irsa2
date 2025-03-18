@@ -100,7 +100,7 @@ $(".owl-carousel").owlCarousel({
       items: 2,
     },
     1300: {
-      items: 3,
+      items: 2,
     },
     1400: {
       items: 4,
