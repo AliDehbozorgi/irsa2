@@ -99,10 +99,10 @@ $(".owl-carousel").owlCarousel({
     1000: {
       items: 2,
     },
-    1100: {
+    1300: {
       items: 3,
     },
-    1200: {
+    1400: {
       items: 4,
     },
 
