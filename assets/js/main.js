@@ -97,22 +97,17 @@ $(".owl-carousel").owlCarousel({
       items: 2,
     },
     1000: {
+      items: 2,
+    },
+    1100: {
+      items: 3,
+    },
+    1200: {
       items: 4,
     },
+
   },
 });
-
-// $('.custom1').owlCarousel({
-//   animateOut: 'slideOutDown',
-//   animateIn: 'flipInX',
-//   items:1,
-//   margin:30,
-//   stagePadding:30,
-//   smartSpeed:450,
-//   autoplay:true,
-//   autoplayTimeout:1000,
-// });
-
 
 
 
