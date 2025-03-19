@@ -13,6 +13,7 @@
   font-family: Sahel, sans-serif;
 }
 
+
 .top-backruond-color {
   background-color: #f2f2ec;
 }
@@ -217,6 +218,7 @@
 
 .contact-section {
   background-color: #f2f2ec;
+  width: 800px;
 }
 
 .send-massage {
@@ -294,6 +296,11 @@
   visibility: hidden;
 }
 @media only screen and (max-width: 800px) {
+  body{
+    overflow: scroll;
+    
+  }
+  
   .navbar-img {
     margin: 0;
     right: 10px;
@@ -332,7 +339,7 @@
     background-size: cover;
   }
   .input-b input {
-    width: 140px;
+    width: 130px;
   }
   .send-massage {
     margin-bottom: 20px;
