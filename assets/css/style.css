@@ -290,6 +290,9 @@
 }
 
 
+.owl-dots{
+  visibility: hidden;
+}
 @media only screen and (max-width: 1000px) {
   .book-online {
     visibility: hidden;
@@ -328,7 +331,7 @@
     object-position: top;
   }
   .booking-online {
-    height: 72vh;
+    height: 33vh;
     background: url(../img/massage2.jpg) 50% 50% no-repeat;
     background-size: cover;
   }
@@ -342,6 +345,10 @@
   .contact {
     margin-right: 0px;
       height: 349px;
+  }
+  .comment-container{
+display: flex;
+justify-items: center;
   }
   }
 
@@ -370,21 +377,26 @@ height: 272px;
 
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
 .booking-online{
-  height: 50vh;
+  height: 70vh;
 }
 .contact{
-  height: 500px;
+  height: 450px;
+}
+.about-img{
+  height: 425px;
 }
 }
 
 
-.owl-dots{
-  visibility: hidden;
+
+@media only screen and (max-width: 500px) {
+  .booking-online{
+    height: 40vh;
+  }
+  
 }
-
-
 
 
 

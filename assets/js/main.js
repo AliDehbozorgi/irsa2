@@ -7,7 +7,7 @@ let Data = [
 ];
 
 let ax = document.querySelector(".slider");
-setInterval(nextimage, 5000);
+setInterval(nextimage, 3000);
 
 let index = 0;
 function nextimage() {
@@ -19,7 +19,7 @@ function nextimage() {
 }
 
 //responsive
-if (this.window.innerWidth < 500) {
+if (this.window.innerWidth < 1000) {
   let Data = [
     { id: 1, src: "assets/img/small-1.jpg" },
     { id: 2, src: "assets/img/small-2.jpg" },
@@ -28,7 +28,7 @@ if (this.window.innerWidth < 500) {
   ];
 
   let ax = document.querySelector(".slider");
-  setInterval(nextimage, 5000);
+  setInterval(nextimage, 3000);
 
   let index = 0;
   function nextimage() {
@@ -49,7 +49,7 @@ else {
   ];
 
   let ax = document.querySelector(".slider");
-  setInterval(nextimage, 5000);
+  setInterval(nextimage, 3000);
 
   let index = 0;
   function nextimage() {
