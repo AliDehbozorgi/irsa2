@@ -315,7 +315,8 @@
     margin-top: 146px;
   }
   .intro-btn {
-    top: 350px;
+    /* top: 350px; */
+    bottom: 0;
   }
 
   .about-txt {
@@ -377,7 +378,7 @@ height: 272px;
 
 
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1400px) {
 .booking-online{
   height: 70vh;
 }
@@ -386,6 +387,9 @@ height: 272px;
 }
 .about-img{
   height: 425px;
+}
+.intro-btn{
+  bottom: 0;
 }
 }
 

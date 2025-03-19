@@ -19,7 +19,7 @@ function nextimage() {
 }
 
 //responsive
-if (this.window.innerWidth < 1000) {
+if (this.window.innerWidth < 900) {
   let Data = [
     { id: 1, src: "assets/img/small-1.jpg" },
     { id: 2, src: "assets/img/small-2.jpg" },
