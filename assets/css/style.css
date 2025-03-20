@@ -345,8 +345,10 @@
     margin-right: 0px;
       height: 349px;
   }
-  .comment-container{
+  .comment-row{
+  padding-right: 27px;
   }
+  
   }
 
 
@@ -400,7 +402,9 @@ height: 272px;
 
 
 
-
+.item{
+  margin: 0;
+}
 
 
 
