@@ -1,65 +1,126 @@
 AOS.init();
-let Data = [
-  { id: 1, src: "assets/img/banner-1.jpg" },
-  { id: 2, src: "assets/img/banner-2.jpg" },
+// let Data = [
+//   { id: 1, src: "assets/img/banner-2.jpg" },
+//   { id: 2, src: "assets/img/banner-1.jpg" },
+//   { id: 3, src: "assets/img/banner-3.jpg" },
+//   { id: 4, src: "assets/img/banner-4.jpg" },
+// ];
+
+// let ax = document.querySelector(".slider");
+// setInterval(nextimage, 3000);
+
+// let index = 0;
+// function nextimage() {
+//   index++;
+//   if (index >= 4) {
+//     index = 0;
+//   }
+//   ax.setAttribute("src", Data[index].src);
+// }
+
+// //responsive
+// if (this.window.innerWidth < 900) {
+//   let Data = [
+//     { id: 1, src: "assets/img/small-2.jpg" },
+//     { id: 2, src: "assets/img/small-1.jpg" },
+//     { id: 3, src: "assets/img/small-3.jpg" },
+//     { id: 4, src: "assets/img/small-4.jpg" },
+//   ];
+
+//   let ax = document.querySelector(".slider");
+//   setInterval(nextimage, 3000);
+
+//   let index = 0;
+//   function nextimage() {
+//     index++;
+//     if (index >= 4) {
+//       index = 0;
+//     }
+//     ax.setAttribute("src", Data[index].src);
+//     console.log("ax");
+//   }
+// }
+// else {
+//   let Data = [
+//     { id: 1, src: "assets/img/banner-2.jpg" },
+//     { id: 2, src: "assets/img/banner-1.jpg" },
+//     { id: 3, src: "assets/img/banner-3.jpg" },
+//     { id: 4, src: "assets/img/banner-4.jpg" },
+//   ];
+
+//   let ax = document.querySelector(".slider");
+//   setInterval(nextimage, 3000);
+
+//   let index = 0;
+//   function nextimage() {
+//     index++;
+//     if (index >= 4) {
+//       index = 0;
+//     }
+//     ax.setAttribute("src", Data[index].src);
+//   }
+// }
+
+// داده‌های عکس‌ها
+// داده‌های عکس‌ها
+const Data = [
+  { id: 1, src: "assets/img/banner-2.jpg" },
+  { id: 2, src: "assets/img/banner-1.jpg" },
   { id: 3, src: "assets/img/banner-3.jpg" },
   { id: 4, src: "assets/img/banner-4.jpg" },
 ];
 
-let ax = document.querySelector(".slider");
-setInterval(nextimage, 3000);
+const smallData = [
+  { id: 1, src: "assets/img/small-2.jpg" },
+  { id: 2, src: "assets/img/small-1.jpg" },
+  { id: 3, src: "assets/img/small-3.jpg" },
+  { id: 4, src: "assets/img/small-4.jpg" },
+];
 
-let index = 0;
-function nextimage() {
-  index++;
-  if (index >= 4) {
-    index = 0;
-  }
-  ax.setAttribute("src", Data[index].src);
+// انتخاب المنت اسلایدر
+const slider = document.querySelector(".slider");
+if (!slider) {
+  console.error("المنت اسلایدر پیدا نشد!");
 }
 
-//responsive
-if (this.window.innerWidth < 900) {
-  let Data = [
-    { id: 1, src: "assets/img/small-1.jpg" },
-    { id: 2, src: "assets/img/small-2.jpg" },
-    { id: 3, src: "assets/img/small-3.jpg" },
-    { id: 4, src: "assets/img/small-4.jpg" },
-  ];
+let interval; // برای نگهداری تایمر
+let index = 0; // ایندکس عکس فعلی
 
-  let ax = document.querySelector(".slider");
-  setInterval(nextimage, 3000);
+// تابع برای تغییر عکس
+function nextImage(data) {
+  index = (index + 1) % data.length; // به ایندکس بعدی برو و اگر به انتها رسیدی، از اول شروع کن
+  slider.setAttribute("src", data[index].src);
+  console.log("عکس تغییر کرد به:", data[index].src); // برای دیباگ
+}
 
-  let index = 0;
-  function nextimage() {
-    index++;
-    if (index >= 4) {
-      index = 0;
-    }
-    ax.setAttribute("src", Data[index].src);
-    console.log("ax");
+// تابع برای شروع اسلایدر
+function startSlider(data) {
+  if (interval) {
+    clearInterval(interval); // اگر تایمر قبلی وجود دارد، آن را پاک کن
+  }
+  nextImage(data); // بلافاصله عکس مناسب را نمایش بده
+  interval = setInterval(() => nextImage(data), 3000); // تایمر جدید را شروع کن
+}
+
+// تابع برای بررسی اندازه صفحه و تنظیم اسلایدر
+function handleResize() {
+  if (window.innerWidth < 900) {
+    console.log("صفحه کوچک است، استفاده از smallData");
+    startSlider(smallData);
+  } else {
+    console.log("صفحه بزرگ است، استفاده از Data");
+    startSlider(Data);
   }
 }
-else {
-  let Data = [
-    { id: 1, src: "assets/img/banner-1.jpg" },
-    { id: 2, src: "assets/img/banner-2.jpg" },
-    { id: 3, src: "assets/img/banner-3.jpg" },
-    { id: 4, src: "assets/img/banner-4.jpg" },
-  ];
 
-  let ax = document.querySelector(".slider");
-  setInterval(nextimage, 3000);
+// شروع اولیه اسلایدر
+handleResize();
 
-  let index = 0;
-  function nextimage() {
-    index++;
-    if (index >= 4) {
-      index = 0;
-    }
-    ax.setAttribute("src", Data[index].src);
-  }
-}
+// گوش دادن به رویداد تغییر اندازه صفحه
+window.addEventListener("resize", handleResize);
+
+
+
 
 let navbardark = document.querySelector(".navbar-dk");
 window.addEventListener("scroll", function () {
