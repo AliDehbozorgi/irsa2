@@ -296,10 +296,6 @@
   visibility: hidden;
 }
 @media only screen and (max-width: 800px) {
-  body{
-    overflow: scroll;
-    
-  }
   
   .navbar-img {
     margin: 0;
@@ -350,8 +346,6 @@
       height: 349px;
   }
   .comment-container{
-display: flex;
-justify-items: center;
   }
   }
 
@@ -373,10 +367,10 @@ justify-items: center;
   .service {
 height: 272px;
   }
-  .comment
+  /* .comment
   {
     margin-right:  43px;
-  }
+  } */
 
 
 
