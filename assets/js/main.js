@@ -3,10 +3,10 @@ AOS.init();
 // داده‌های عکس‌ها
 // داده‌های عکس‌ها
 const Data = [
-  { id: 1, src: "assets/img/banner-2.jpg" },
-  { id: 2, src: "assets/img/banner-1.jpg" },
-  { id: 3, src: "assets/img/banner-3.jpg" },
-  { id: 4, src: "assets/img/banner-4.jpg" },
+  { id: 1, src: "assets/img/eyebrow/banner-2.jpg" },
+  { id: 2, src: "assets/img/eyebrow/banner-1.jpg" },
+  { id: 3, src: "assets/img/eyebrow/banner-3.jpg" },
+  { id: 4, src: "assets/img/eyebrow/banner-4.jpg" },
 ];
 
 const smallData = [

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@100..900&display=swap");
+@import url("https://v1.fontapi.ir/css/Sahel");
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: Sahel, sans-serif;
+  }
+  
+
+
+
+.text-color{
+    color: rgb(91, 84, 84);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-div{
+    background: linear-gradient(0deg, #000 0%, #00000000 100%), url(https://irsalaser.ca/wp-content/uploads/2024/03/Top.jpg) 50% 30% no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+.lash{
+    max-width: 81%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+.last-lash{
+    max-width: 78%;
+    height: auto;
+    vertical-align: middle;
+
+}
+
+
+
+.star-up{
+    margin-top: 0px;
+    padding: 15px;
+    font-weight: bold;
+  }
+
+
+.comment-2{
+        border: 2px solid;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-radius: 7px;
+        height: 317px;
+        width: 300px;
+}
+
+
+.comment-2 p {
+    margin-top: 40px;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  .comment-2 a {
+    background-color: #bba07a;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .comment-2 a:hover {
+    color: white;
+    background-color: black;
+  }
+  
+  .comment-2 span {
+    color: #e4c139;
+    font-size: larger;
+    padding: 15px;
+  }
+  
+  .comment-2 h6 {
+    margin-right: 15px;
+  }
+  
+
+
+  @media only screen and (max-width: 800px) {
+    .lash{
+        max-width: 101%;
+    }
+  }
+
+
+
