@@ -49,6 +49,10 @@
   background-color: #bba07a;
 }
 
+
+
+
+
 .book-online:hover {
   background-color: #bba07a;
   color: white;
@@ -351,6 +355,10 @@
   .map-txt{
     margin-left: 30px;
   }
+  .slider{
+    height: 102vh;
+  }
+  
   
   }
 
@@ -387,11 +395,12 @@ height: 272px;
   height: 450px;
 }
 .about-img{
-  height: 425px;
+  height: 530px;
 }
 .intro-btn{
   margin-top: 300px;
 }
+
 }
 
 
