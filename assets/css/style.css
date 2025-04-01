@@ -22,12 +22,6 @@
   font-family: Tahoma;
 }
 
-/* .dropdown-btn {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-} */
 
 .dropdown-content {
   display: none;
@@ -45,7 +39,6 @@
   padding: 10px 15px;
   color: #333;
   text-decoration: none;
-  border-bottom: 1px solid #eee;
 }
 
 .dropdown-content a:hover {
