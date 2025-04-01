@@ -14,20 +14,14 @@
 }
 
 
-.slider-eyebrow{
-  height: 75vh;
-    object-fit: cover;
-}
+
+
 
 
 .text-color {
   color: rgb(91, 84, 84);
 }
 
-.slider-div {
-  background: linear-gradient(0deg, #000 0%, #00000000 100%), url(https://irsalaser.ca/wp-content/uploads/2024/03/Top.jpg) 50% 30% no-repeat;
-  background-size: cover;
-}
 
 .lash {
   max-width: 81%;
@@ -85,8 +79,22 @@
   margin-right: 15px;
 }
 
-@media only screen and (max-width: 800px) {
+
+.intro-2{
+padding-top: 130px;
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
   .lash {
     max-width: 101%;
+  }
+  .img-page-2{
+    height: 24vh
+  }
+  .intro-2{
+  padding-top:53px;
   }
 }

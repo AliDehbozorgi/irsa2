@@ -1,5 +1,52 @@
 AOS.init();
 
+let navbardark = document.querySelector(".navbar-dk");
+window.addEventListener("scroll", function () {
+  if (this.window.scrollY > 200) {
+    navbardark.classList.add("dark");
+  } else navbardark.classList.remove("dark");
+  console.log("navbardark");
+});
+
+$(".owl-carousel").owlCarousel({
+  rtl: true,
+  loop: false,
+  margin: 7,
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: false,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    500: {
+      items: 2,
+    },
+    600: {
+      items: 2,
+    },
+    700: {
+      items: 2,
+    },
+    800: {
+      items: 2,
+    },
+    900: {
+      items: 2,
+    },
+    1000: {
+      items: 2,
+    },
+    1300: {
+      items: 2,
+    },
+    1400: {
+      items: 4,
+    },
+  },
+});
+
 // داده‌های عکس‌ها
 // داده‌های عکس‌ها
 const Data = [
@@ -59,55 +106,6 @@ handleResize();
 window.addEventListener("resize", handleResize);
 
 
-
-
-let navbardark = document.querySelector(".navbar-dk");
-window.addEventListener("scroll", function () {
-  if (this.window.scrollY > 200) {
-    navbardark.classList.add("dark");
-  } else navbardark.classList.remove("dark");
-  console.log("navbardark");
-});
-
-$(".owl-carousel").owlCarousel({
-  rtl: true,
-  loop: false,
-  margin: 7,
-  nav: false,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: false,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    500: {
-      items: 2,
-    },
-    600: {
-      items: 2,
-    },
-    700: {
-      items: 2,
-    },
-    800: {
-      items: 2,
-    },
-    900: {
-      items: 2,
-    },
-    1000: {
-      items: 2,
-    },
-    1300: {
-      items: 2,
-    },
-    1400: {
-      items: 4,
-    },
-
-  },
-});
 
 
 
