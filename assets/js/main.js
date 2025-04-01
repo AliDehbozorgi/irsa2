@@ -106,7 +106,17 @@ handleResize();
 window.addEventListener("resize", handleResize);
 
 
+function toggleDropdown() {
+  const dropdown = document.getElementById("myDropdown");
+  dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+}
 
+// بستن منو با کلیک بیرون از آن
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".dropdown")) {
+    document.getElementById("myDropdown").style.display = "none";
+  }
+});
 
 
 
