@@ -36,13 +36,13 @@ $(".owl-carousel").owlCarousel({
       items: 2,
     },
     1000: {
-      items: 3,
+      items: 2,
     },
     1300: {
-      items: 3,
+      items: 2,
     },
     1400: {
-      items: 3,
+      items: 2,
     },
     1500: {
       items: 4,
