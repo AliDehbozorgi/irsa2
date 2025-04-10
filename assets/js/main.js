@@ -36,10 +36,10 @@ $(".owl-carousel").owlCarousel({
       items: 2,
     },
     1000: {
-      items: 4,
+      items: 3,
     },
     1300: {
-      items: 4,
+      items: 3,
     },
     1400: {
       items: 4,
