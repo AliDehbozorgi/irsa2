@@ -45,7 +45,7 @@ $(".owl-carousel").owlCarousel({
       items: 2,
     },
     1500: {
-      items: 4,
+      items: 2,
     },
   },
 });
