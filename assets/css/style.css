@@ -432,6 +432,9 @@
   .contact {
     height: 500px;
   }
+  .max-sommthing{
+    max-width: 85%;
+  }
 }
 
 .item {
