@@ -13,8 +13,6 @@
   font-family: Sahel, sans-serif;
 }
 
-
-
 /* this AI made not me */
 .dropdown {
   position: relative;
@@ -22,14 +20,13 @@
   font-family: Tahoma;
 }
 
-
 .dropdown-content {
   display: none;
   position: absolute;
   right: 0;
   background: white;
   min-width: 160px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   z-index: 1;
 }
@@ -51,21 +48,9 @@
 
 /* End */
 
-
-
-
-
-
-
-
-
-
-
-.my-align{
+.my-align {
   text-align: justify;
 }
-
-
 
 .top-backruond-color {
   background-color: #f2f2ec;
@@ -86,7 +71,6 @@
   position: absolute;
   margin-top: 30px;
   background-color: rgba(255, 253, 253, 0);
-
 }
 .navbar-img {
   height: 90px;
@@ -103,10 +87,6 @@
   color: white;
   background-color: #bba07a;
 }
-
-
-
-
 
 .book-online:hover {
   background-color: #bba07a;
@@ -224,7 +204,7 @@
 }
 
 .booking-online {
-  height: 70vh;
+  height: 500px;
   background: url(../img/massage2.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
@@ -345,16 +325,14 @@
   color: red;
 }
 
-.item{
+.item {
   margin-left: 7px;
 }
 
-
-.owl-dots{
+.owl-dots {
   visibility: hidden;
 }
 @media only screen and (max-width: 800px) {
-  
   .navbar-img {
     height: 80px;
   }
@@ -386,7 +364,7 @@
     object-position: top;
   }
   .booking-online {
-    height: 33vh;
+    height: 250px;
     background: url(../img/massage2.jpg) 50% 50% no-repeat;
     background-size: cover;
   }
@@ -398,93 +376,64 @@
     width: 328px;
   }
   .contact {
-      height: 349px;
+    height: 349px;
   }
-  .comment-row{
-  padding-right: 27px;
+  .comment-row {
+    padding-right: 27px;
   }
-  .map-txt{
+  .map-txt {
     margin-left: 30px;
   }
-  .slider{
+  .slider {
     height: 100vh;
   }
-  
-  
-  }
+}
 
-
-
-
-
-  .map-txt {
-    position: absolute;
-    width: 310px;
-    height: 539px;
-    border-radius: 8px;
-    background-color: white;
-    margin-right: 20px;
-  }
-  .about-img {
-    height: 461px;
-  }
-  .service {
-height: 272px;
-  }
-  /* .comment
-  {
-    margin-right:  43px;
-  } */
-
-
+.map-txt {
+  position: absolute;
+  width: 310px;
+  height: 539px;
+  border-radius: 8px;
+  background-color: white;
+  margin-right: 20px;
+}
+.about-img {
+  height: 461px;
+}
+.service {
+  height: 272px;
+}
 
 @media only screen and (max-width: 920px) {
-.booking-online{
-  height: 70vh;
+  .booking-online {
+    height: 70vh;
+  }
+  .contact {
+    height: 450px;
+  }
+  .about-img {
+    height: 530px;
+  }
+  .intro-btn {
+    margin-top: 300px;
+  }
 }
-.contact{
-  height: 450px;
-}
-.about-img{
-  height: 530px;
-}
-.intro-btn{
-  margin-top: 300px;
-}
-
-}
-
-
 
 @media only screen and (max-width: 500px) {
-  .booking-online{
-    height: 40vh;
+  .booking-online {
+    height: 300px;
   }
-
-  
 }
 
 @media only screen and (max-width: 1058px) {
-  .navbar{
+  .navbar {
     max-width: 100%;
   }
-  .contact{
+  .contact {
     height: 500px;
   }
-  
 }
 
-
-
-
-
-
-.item{
+.item {
   margin: 0;
 }
-
-
-
-
-
-
