@@ -267,7 +267,6 @@
 
 .contact {
   border-radius: 15px;
-  margin-right: 40px;
   height: 550px;
 }
 
@@ -399,7 +398,6 @@
     width: 328px;
   }
   .contact {
-    margin-right: 0px;
       height: 349px;
   }
   .comment-row{
