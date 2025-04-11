@@ -86,9 +86,11 @@
   position: absolute;
   margin-top: 30px;
   background-color: rgba(255, 253, 253, 0);
+
 }
 .navbar-img {
-  height: 120px;
+  height: 90px;
+  display: flex;
 }
 
 .logo {
@@ -355,8 +357,6 @@
 @media only screen and (max-width: 800px) {
   
   .navbar-img {
-    margin: 0;
-    right: 10px;
     height: 80px;
   }
   .intro {
@@ -462,8 +462,23 @@ height: 272px;
   .booking-online{
     height: 40vh;
   }
+
   
 }
+
+@media only screen and (max-width: 1058px) {
+  .navbar{
+    max-width: 100%;
+  }
+  .contact{
+    height: 500px;
+    margin-right: 110px;
+  }
+  
+}
+
+
+
 
 
 

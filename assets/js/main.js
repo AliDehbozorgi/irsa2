@@ -36,10 +36,16 @@ $(".owl-carousel").owlCarousel({
       items: 2,
     },
     1000: {
-      items: 2,
+      items: 3,
+    },
+    1110: {
+      items: 3,
+    },
+    1200:{
+      items: 3,
     },
     1300: {
-      items: 2,
+      items: 3,
     },
     1400: {
       items: 4,
@@ -106,6 +112,10 @@ handleResize();
 window.addEventListener("resize", handleResize);
 
 
+
+
+
+// dropdown
 function toggleDropdown() {
   const dropdown = document.getElementById("myDropdown");
   dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
