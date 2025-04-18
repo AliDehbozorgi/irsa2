@@ -8,53 +8,51 @@ window.addEventListener("scroll", function () {
   console.log("navbardark");
 });
 
-$(".owl-carousel").owlCarousel({
+
+
+$('.your-slider-class').slick({
+  autoplay: false,
+  autoplaySpeed: 3000,
+  dots: false,
+  arrows: true,
+  infinite: false,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  pauseOnHover: true, // Pause autoplay when hovered
+  centerMode: false, // Enable center mode for sliding
   rtl: true,
-  loop: false,
-  margin: 7,
-  nav: false,
-  autoplay: true,
-  autoplayTimeout: 5000,
-  autoplayHoverPause: false,
-  responsive: {
-    0: {
-      items: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false,
+      },
     },
-    500: {
-      items: 2,
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      }
     },
-    600: {
-      items: 2,
-    },
-    700: {
-      items: 2,
-    },
-    800: {
-      items: 2,
-    },
-    900: {
-      items: 2,
-    },
-    1000: {
-      items: 3,
-    },
-    1110: {
-      items: 3,
-    },
-    1200:{
-      items: 3,
-    },
-    1300: {
-      items: 3,
-    },
-    1400: {
-      items: 3,
-    },
-    1500: {
-      items: 3,
-    },
-  },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+      }
+    }]
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
 });
+
+
 
 // داده‌های عکس‌ها
 // داده‌های عکس‌ها
@@ -130,9 +128,6 @@ document.addEventListener("click", (e) => {
     document.getElementById("myDropdown").style.display = "none";
   }
 });
-
-
-
 
 
 

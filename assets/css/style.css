@@ -108,17 +108,15 @@
   border-radius: 5px;
   height: 50px;
   width: 110px;
+  transition: all 0.7s;
+  margin-top: 470px;
+  align-content: center;
 }
 
 .intro-btn:hover {
   background-color: #bba07a;
   color: white;
   transform: scale(1.05);
-}
-
-.intro-btn {
-  transition: all 0.7s;
-  margin-top: 520px;
 }
 
 .about-img {
@@ -170,7 +168,8 @@
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: 7px;
   height: 350px;
-  width: 300px;
+  width: 250px;
+  margin: 15px;
 }
 
 .comment p {
@@ -204,7 +203,7 @@
 }
 
 .booking-online {
-  height: 500px;
+  height: 472px;
   background: url(../img/massage2.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
@@ -278,17 +277,12 @@
 
 .map-txt {
   position: absolute;
-  width: 500px;
-  height: 555px;
+  height: 569px;
+  width: 310px;
   border-radius: 8px;
   background-color: white;
-  margin-right: 40px;
   margin-top: 119px;
-}
-
-.lorem {
-  padding-right: 40px;
-  padding-left: 40px;
+  margin-right: 25px;
 }
 
 .map-txt h1 {
@@ -298,6 +292,15 @@
 .map-txt a {
   color: brown;
 }
+
+
+
+
+.lorem {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
 
 .bg {
   background: #bba07a;
@@ -317,7 +320,6 @@
   border-radius: 50%;
   padding: 0;
   line-height: 49px;
-  margin-right: 15px;
 }
 
 .face-book:hover {
@@ -381,22 +383,18 @@
   .comment-row {
     padding-right: 27px;
   }
-  .map-txt {
-    margin-left: 30px;
-  }
   .slider {
     height: 100vh;
   }
+  .map-row{
+    display: flex;
+    justify-content: center;
+  }
+  .map-txt{
+    margin-right: 0;
+  }
 }
 
-.map-txt {
-  position: absolute;
-  width: 310px;
-  height: 539px;
-  border-radius: 8px;
-  background-color: white;
-  margin-right: 20px;
-}
 .about-img {
   height: 461px;
 }
@@ -431,6 +429,12 @@
   }
 }
 
-.item {
-  margin: 0;
+
+.slick-prev:before, .slick-next:before {
+  color: #bba07a;  
+  font-size: 30px;
 }
+
+
+
+
