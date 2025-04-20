@@ -18,7 +18,7 @@ $('.your-slider-class').slick({
   infinite: false,
   slidesToShow: 4,
   slidesToScroll: 1,
-  pauseOnHover: true, // Pause autoplay when hovered
+  pauseOnHover: false, // Pause autoplay when hovered
   centerMode: false, // Enable center mode for sliding
   rtl: true,
   responsive: [
