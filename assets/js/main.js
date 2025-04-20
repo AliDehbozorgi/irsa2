@@ -11,8 +11,8 @@ window.addEventListener("scroll", function () {
 
 
 $('.your-slider-class').slick({
-  autoplay: false,
-  autoplaySpeed: 3000,
+  autoplay: true,
+  autoplaySpeed: 2000,
   dots: false,
   arrows: true,
   infinite: false,
